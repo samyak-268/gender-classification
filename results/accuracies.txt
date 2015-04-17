@@ -1,0 +1,10 @@
+knn-3 68
+knn-5 73
+knn-7 72
+knn-9 70
+svm-linear 84
+svm-quadratic 85
+naive-bayes 71
+neural-net[531 50 20 1] 63
+neural-net[531 80 1] 60
+neural-net[531 85 1] 59
