@@ -19,9 +19,9 @@ int main(int argc, char** argv)
     Mat src = imread(imagepath, CV_LOAD_IMAGE_GRAYSCALE);
     Mat lbp_img = lbp::OLBP(src);
 
-    imshow("lbp", lbp_img);
-    waitKey(0);
-    /*
+    // imshow("lbp", lbp_img);
+    // waitKey(0);
+    
     Mat spatial_hist = lbp::uniformPatternSpatialHistogram(lbp_img, 256, 3, 3, 0);
 
     vector<int> feature_vector;
@@ -39,7 +39,6 @@ int main(int argc, char** argv)
             cout << feature_vector[i];
     }
     cout << "\n";
-    */
 
     return 0;
 }
